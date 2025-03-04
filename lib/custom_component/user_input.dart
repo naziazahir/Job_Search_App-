@@ -10,13 +10,13 @@ class CustomTextField extends StatelessWidget {
 
   // Constructor with onChanged and autovalidateMode
   const CustomTextField({
-    Key? key,
+    super.key,
     required this.hintText,
     required this.controller,
     this.validator,
     this.onChanged,
     this.autovalidateMode = AutovalidateMode.disabled, // Default mode
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

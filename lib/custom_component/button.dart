@@ -10,14 +10,14 @@ class CustomButton extends StatelessWidget {
    // Unique Hero tag
 
   const CustomButton({
-    Key? key,
+    super.key,
     required this.text,
     this.onPressed,
     // Hero tag required
     this.backgroundColor,
     this.textColor = Colors.white,
     this.textStyle,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

@@ -81,7 +81,7 @@ class _UserLoginState extends State<UserLogin> {
               SizedBox(
                 height: 25.h,
               ),
-              Container(
+              SizedBox(
                 width: 380.w,
                 height: 420.h,
                 child: Column(
