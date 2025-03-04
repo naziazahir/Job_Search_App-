@@ -26,7 +26,7 @@ class _CreateUserAccountState extends State<CreateUserAccount> {
 
   // AutovalidateMode emailAutoValidate = AutovalidateMode.disabled;
   // AutovalidateMode passwordAutoValidate = AutovalidateMode.disabled;
-  // AutovalidateMode confirmPasswordAutoValidate = AutovalidateMode.disabled;
+  // AutovalidatenMode confirmPasswordAutoValidate = AutovalidateMode.disabled;
 
   // Function to validate email
   String? _validateEmail(String? value) {
@@ -91,7 +91,7 @@ class _CreateUserAccountState extends State<CreateUserAccount> {
                 style: TextStyle(fontSize: 14.sp, fontWeight: FontWeight.w600),
               ),
               SizedBox(height: 20.h),
-              Container(
+              SizedBox(
                 width: 400.w,
                 height: 450.h,
                 child: Column(
