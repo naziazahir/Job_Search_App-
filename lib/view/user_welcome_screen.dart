@@ -35,7 +35,7 @@ class WelcomeScreen extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.all(25.0),
+              padding: const EdgeInsets.all(50.0),
               child: Center(
                 child: Text(
                   textAlign: TextAlign.center,
